@@ -2,3 +2,23 @@
     /*background-color: rgb(200, 0,200);*/
     background-color: #FF00FF;
 }
+
+p {
+    /*border:5px solid #0000FF */
+    background-color: #00f;
+    border-radius: 5px;
+}
+
+div{
+    background-color: #00FF00;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 3px solid darkgreen;
+}
+
+img{
+    border: 5px solid #FF0000;
+    border-radius: 30px;
+    overflow: hidden;
+}
