@@ -1,11 +1,4 @@
-#titulo, 
-.texto{
-    color: blue;
-    font-size: 25px;
-}
 #titulo{
-    font-weight: normal;
-}
-.texto {
-    font-size: bold;
+    /*background-color: rgb(200, 0,200);*/
+    background-color: #FF00FF;
 }
