@@ -12,11 +12,19 @@
 </head>
 
 <body>
-    <form action="blablabla.php" method="GET">
+    <form action="blablabla.php" method="POST" enctype="multipart/form-data">
+        <!-- 1. Geralmente envia-se arquivo atravéz do metodo POST
+        2. Quando tenho arquivo, tenho que colocar o enctype para converter em bytes-->
 
         <input type="hidden" name="country" value="BR">
 
         <fieldset>
+
+            <label for="">
+                Foto: <br>
+                <input type="file" name="photo" accept="image/*">
+            </label> <br>
+
             <legend>Dados Pessoais</legend>
             <label for="">
                 Primeiro Nome: <br>
