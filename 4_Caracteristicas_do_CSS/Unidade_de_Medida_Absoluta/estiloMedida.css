@@ -1,0 +1,9 @@
+body{
+    margin: 0;
+}
+
+.container {
+    width: 30cm;
+    height: 30cm;
+    background: #999;
+}
