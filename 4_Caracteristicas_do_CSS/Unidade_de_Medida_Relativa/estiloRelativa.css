@@ -1,0 +1,34 @@
+/* em - medidas são baseadas com as medidas do do pai;
+rem - medidas baseadas com as medidas da caixa mais superior. (funciona como se fosse um zoom, aumentando ou diminuindo toda página)*/
+
+/*
+body{
+    font-size: 20px;
+}
+h1{
+    font-size: 3em;
+}
+.box {
+    font-size: 20px;
+}
+.box-interno {
+    width: 10em;
+    height: 10em;
+    background-color: #999;
+}
+*/ 
+
+html{
+    font-size: 15px;
+}
+h1{
+    font-size: 3rem;
+}
+.box {
+    font-size: 2rem;
+}
+.box-interno {
+    width: 20rem;
+    height: 10rem;
+    background-color: #999;
+}
