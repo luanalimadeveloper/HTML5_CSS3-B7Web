@@ -1,0 +1,30 @@
+/* PORCENTAGEM */
+/*
+.box {
+    width: 50%;
+    height: 400px;
+    background-color: #999;
+}
+
+.box-interno {
+    width: 50%;
+    height: 50%;
+    background-color: #333;
+}
+*/
+
+
+/*COM FONTS MONOSPACE*/
+body{
+    font-family: Courier;
+}
+.box {
+    width:300px;
+    background-color: #999;
+}
+
+.box-interno {
+    background-color: #333;
+    color: #FFF;
+    width: 10ch;
+}
