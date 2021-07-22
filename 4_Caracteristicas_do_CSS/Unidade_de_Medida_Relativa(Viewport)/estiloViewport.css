@@ -1,0 +1,9 @@
+bory{
+    margin: 0;
+}
+.box {
+    background-color: #999;
+    height: 50vh; /* 50% da altura disponivel (na minha tela) para o usuário */
+    width: 50vw; 
+}
+
