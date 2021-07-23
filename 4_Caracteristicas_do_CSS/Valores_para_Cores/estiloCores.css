@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+    /* background-color: greenyellow; /*predefinida*/
+    /* background-color: #FFFFFF; /*hexadecimal*/
+    /* background-color: rgb(255,100,0); */
+    color: #0000FF;
+}
+
+h1 {
+    border: 2px solid currentColor;  /* currentColor - herda a cor do pai */
+}
